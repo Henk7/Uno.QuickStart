@@ -25,7 +25,7 @@ namespace MyApp
         public MainPage()
         {
             this.InitializeComponent();
-            // Remove the comment to fix the binding issue.
+            // Remove the comment to fix the binding issue in Level1.xaml.
             //this.DataContext = new TestMeModel();
         }
     }
