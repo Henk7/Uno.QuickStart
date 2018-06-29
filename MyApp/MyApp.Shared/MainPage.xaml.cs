@@ -26,5 +26,15 @@ namespace MyApp
         {
             this.InitializeComponent();
         }
+
+        private void ScrollViewer_ViewChanged(object sender, ScrollViewerViewChangedEventArgs e)
+        {
+
+        }
+
+        private void ScrollViewer_ViewChanging(object sender, ScrollViewerViewChangingEventArgs e)
+        {
+
+        }
     }
 }

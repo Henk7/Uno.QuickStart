@@ -7,7 +7,8 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-		<TextBlock Text="Hello, world !" Margin="20" FontSize="30" />
-    </Grid>
+    <ScrollViewer VerticalScrollMode="Enabled" HorizontalScrollMode="Enabled"
+        ViewChanged="ScrollViewer_ViewChanged" ViewChanging="ScrollViewer_ViewChanging">
+        <Border Height="1000" Width="1000" Background="Red"/>
+    </ScrollViewer>
 </Page>

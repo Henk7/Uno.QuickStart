@@ -12,7 +12,7 @@
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
     <ResourcesDirectory>..\MyApp.Shared\Strings</ResourcesDirectory>
-	</PropertyGroup>
+  </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
@@ -100,7 +100,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Uno.UI">
-      <Version>1.29.1-aobfwasm.2834</Version>
+      <Version>1.31.0-dev.91</Version>
     </PackageReference>
   </ItemGroup>
   <Import Project="..\MyApp.Shared\MyApp.Shared.projitems" Label="Shared" Condition="Exists('..\MyApp.Shared\MyApp.Shared.projitems')" />
